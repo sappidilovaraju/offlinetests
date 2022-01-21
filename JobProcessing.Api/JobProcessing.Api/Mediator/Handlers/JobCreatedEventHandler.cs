@@ -1,5 +1,5 @@
-﻿using JobProcessing.Api.Data;
-using JobProcessing.Api.Mediator.Events;
+﻿using JobProcessing.Api.Mediator.Events;
+using JobProcessing.Data;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;

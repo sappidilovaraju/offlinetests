@@ -1,5 +1,5 @@
 ﻿using JobProcessing.Api.Contracts;
-using JobProcessing.Api.Data;
+using JobProcessing.Data;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace JobProcessing.Api.Infrastructure.Installers

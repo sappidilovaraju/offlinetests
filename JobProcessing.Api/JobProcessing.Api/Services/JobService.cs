@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using JobProcessing.Api.Data;
 using JobProcessing.Api.DTO.Request;
 using JobProcessing.Api.DTO.Response;
-using JobProcessing.Api.Mediator.Events;
+using JobProcessing.Data;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
@@ -48,10 +47,10 @@ namespace JobProcessing.Api.Services
         {
             var jobModel = _mapper.Map<JobModel>(job);
             var result = _fakeJobCollection.Add(jobModel);
-            await _mediator.Publish(new JobCreatedEvent()
-            {
-                JobId = result.Id
-            });
+            //await _mediator.Publish(new JobCreatedEvent()
+            //{
+            //    JobId = result.Id
+            //});
             return _mapper.Map<JobResponse>(result);
         }
 

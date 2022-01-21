@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace JobProcessing.Api.Data
+namespace JobProcessing.Data
 {
     public class JobModel
     {

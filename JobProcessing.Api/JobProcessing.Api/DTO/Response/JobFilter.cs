@@ -1,4 +1,4 @@
-﻿using JobProcessing.Api.Data;
+﻿using JobProcessing.Data;
 
 namespace JobProcessing.Api.DTO.Response
 {

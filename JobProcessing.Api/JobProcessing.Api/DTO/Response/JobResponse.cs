@@ -1,4 +1,4 @@
-﻿using JobProcessing.Api.Data;
+﻿using JobProcessing.Data;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;

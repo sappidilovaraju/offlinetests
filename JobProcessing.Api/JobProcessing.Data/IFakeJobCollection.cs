@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace JobProcessing.Api.Data
+namespace JobProcessing.Data
 {
     public interface IFakeJobCollection
     {

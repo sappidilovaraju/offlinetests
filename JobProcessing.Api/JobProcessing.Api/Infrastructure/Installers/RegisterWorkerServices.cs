@@ -8,7 +8,7 @@ namespace JobProcessing.Api.Infrastructure.Installers
     {
         public void RegisterAppServices(IServiceCollection services)
         {
-            // services.AddHostedService<JobProcessingWorker>();
+            //services.AddHostedService<JobProcessingWorker>();
         }
     }
 }

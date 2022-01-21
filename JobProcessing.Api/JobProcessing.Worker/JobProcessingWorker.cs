@@ -1,4 +1,4 @@
-﻿using JobProcessing.Data;
+using JobProcessing.Data;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JobProcessing.Api.Worker
+namespace JobProcessing.Worker
 {
     public class JobProcessingWorker : BackgroundService
     {
@@ -34,7 +34,6 @@ namespace JobProcessing.Api.Worker
 
         protected override async Task ExecuteAsync(CancellationToken cancellationToken)
         {
-            Thread.Sleep(60000);
             while (!cancellationToken.IsCancellationRequested)
             {
                 try

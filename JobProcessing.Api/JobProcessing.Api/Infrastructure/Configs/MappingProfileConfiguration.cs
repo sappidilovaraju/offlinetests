@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using JobProcessing.Api.Data;
+using JobProcessing.Data;
 using JobProcessing.Api.DTO.Request;
 using JobProcessing.Api.DTO.Response;
 
